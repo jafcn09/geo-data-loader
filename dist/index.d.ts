@@ -197,8 +197,13 @@ declare class GeoDataLoader extends EventEmitter {
 }
 
 declare class CacheManager {
+    private config;
+    private cache;
+    constructor(config: CacheConfig);
     get(key: string): any;
     set(key: string, value: any): void;
+    delete(key: string): void;
+    evict(targetMB: number): void;
     clear(): void;
 }
 
