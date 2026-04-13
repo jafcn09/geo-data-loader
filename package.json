@@ -1,6 +1,7 @@
 {
-  "name": "@geo-data-loader/core",
+  "name": "@coderesolutions/geo-data-loader",
   "version": "1.0.0",
+  "type": "module",
   "description": "High-performance geospatial data loader with progressive loading, virtualization, and caching strategies",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -33,11 +34,11 @@
     "virtualization",
     "large-datasets"
   ],
-  "author": "GeoDataLoader Team",
+  "author": "CodeResolutions & Jhafet Cánepa",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/geo-data-loader/core"
+    "url": "https://github.com/coderesolutions/geo-data-loader"
   },
   "peerDependencies": {
     "leaflet": ">=1.0.0"
@@ -45,6 +46,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/jest": "^29.5.0",
     "@types/leaflet": "^1.9.0",
@@ -58,8 +60,8 @@
     "rollup": "^3.28.0",
     "rollup-plugin-dts": "^6.0.0",
     "rollup-plugin-filesize": "^10.0.0",
-    "rollup-plugin-terser": "^7.0.0",
     "ts-jest": "^29.1.0",
+    "tslib": "^2.8.1",
     "typescript": "^5.2.0"
   },
   "engines": {
