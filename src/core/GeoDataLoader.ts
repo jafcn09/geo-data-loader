@@ -1,6 +1,6 @@
 import * as L from 'leaflet';
 import { EventEmitter } from '../utils/EventEmitter';
-import { LoaderOptions, DatasetConfig, LoadProgress, LoadResult, LoaderEventType, PerformanceMetrics, LoadStrategy } from '../interfaces/types';
+import { LoaderOptions, DatasetConfig, LoadProgress, LoadResult, PerformanceMetrics, LoadStrategy } from '../interfaces/types';
 import { ProgressiveStrategy } from '../strategies/ProgressiveStrategy';
 import { TileStrategy } from '../strategies/TileStrategy';
 import { ViewportStrategy } from '../strategies/ViewportStrategy';
